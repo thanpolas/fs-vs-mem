@@ -4,6 +4,7 @@ This is a simple benchmark that takes all `.js` files from `joyent/node`, wraps 
 
 ## Setup
 1. `npm install`
+2. `npm install -g gulp`
 2. `gulp fs`
 3. `gulp mem`
 

@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "file-system vs in-memory file transformations",
   "scripts": {
-    "install": "git submodule init"
+    "install": "git submodule init && git submodule update"
   },
   "devDependencies": {
     "gulp": "~3.5.5",
@@ -12,6 +12,6 @@
     "gulp-header": "~1.0.2",
     "gulp-footer": "~1.0.4",
     "gulp-uglify": "^0.2.1",
-    "rimraf": "^2.2.6"
+    "rimraf": "~2.2.6"
   }
 }
